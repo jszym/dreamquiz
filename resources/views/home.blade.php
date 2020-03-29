@@ -8,8 +8,10 @@
   <p class="lead">Brought to you by Phil and Joseph.</p>
   <hr class="my-4">
   <p>To enter your questions, click "Submit Questions". To take a quiz, click "Take Quiz".</p>
-  <a class="btn btn-dark btn-lg" href="#" role="button">Submit Questions</a>
-  <a class="btn btn-dark btn-lg" href="#" role="button">Take Quiz</a>
-  <a class="btn btn-dark btn-lg" href="#" role="button">Create Quiz</a>
+  <a class="btn btn-dark btn-lg" href="/questions" role="button">Submit Questions</a>
+  <a class="btn btn-dark btn-lg" href="/take" role="button">Take Quiz</a>
+  <a class="btn btn-dark btn-lg" href="/create" role="button">Create Quiz</a>
+  <a class="btn btn-dark btn-lg" href="/results" role="button">View Results</a>
+
 </div>
 @endsection
