@@ -99,8 +99,11 @@ Route::post("/manage", function (Request $request){
     }
 
     if ($request->quizAction == 1){
+        $qid = $quiz->id;
+        $qcode = $quiz->code;
+        $qtitle = $quiz->title;
         $quiz->delete();
-        return redirect('/manage/'.$quiz->id.'/'.$quiz->code)->with("success_message", "Deleted quiz \"$quiz->title\".");
+        return redirect('/manage/'.$qid.'/'.$qcode)->with("success_message", "Deleted quiz \"$qtitle\".");
     }
 
     if ($request->quizAction == 2){
