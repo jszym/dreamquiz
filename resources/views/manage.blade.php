@@ -19,9 +19,9 @@
 <h2>Question Stats for {{$quiz->title}}</h2>
 Number of questions submitted by members for this quiz:
 <ul>
-      <li>James or Andrew Dixon: {{$num_qs[0]}}</li>
+      <li>James or Andrew Dixon & Al Koiman: {{$num_qs[0]}}</li>
       <li>Phil Hwang: {{$num_qs[1]}}</li>
-      <li>George Kafalis: {{$num_qs[2]}}</li>
+      <li>George Kefalis: {{$num_qs[2]}}</li>
       <li>Alexandra Lewis: {{$num_qs[3]}}</li>
       <li>Joseph Szymborski: {{$num_qs[4]}}</li>
       <li>Adam Verillo: {{$num_qs[5]}}</li>

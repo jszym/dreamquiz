@@ -20,9 +20,9 @@
   <div class="form-group">
     <label for="quizmaster">Who are you?</label>
     <select class="form-control" id="quizmaster" name="quizmaster"  aria-describedby="quizmasterHelp">
-      <option value=1>James or Andrew Dixon</option>
+      <option value=1>James or Andrew Dixon & Al Koiman</option>
       <option value=2>Phil Hwang</option>
-      <option value=3>George Kafalis</option>
+      <option value=3>George Kefalis</option>
       <option value=4>Alexandra Lewis</option>
       <option value=5>Joseph Szymborski</option>
       <option value=6>Adam Verillo</option>
