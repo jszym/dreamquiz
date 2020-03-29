@@ -57,12 +57,12 @@ Route::get('/manage/{id}/{code}', function ($id, $code) {
     }
 
     $quiz_master_lookup = array(
-        1 => "James or Andrew Dixon & Al Koiman",
-        2 => "Phil Hwang",
+        1 => "James or Andrew Dixon-Tyconderoga & Al Coolguy",
+        2 => "Don Hwang",
         3 => "George Kefalas",
-        4 => "Alexandra Lewis",
-        5 => "Joseph Szymborski",
-        6 => "Adam Verillo"
+        4 => "Alexandra (It's) Lupus",
+        5 => "Joseph Zimbabwe",
+        6 => "Adam Vermicelli"
     );
 
     $quiz_master = $quiz_master_lookup[$quiz->quiz_master];
@@ -134,12 +134,12 @@ Route::get("/questions/{id}", function($id){
 
 
     $quiz_master_lookup = array(
-        1 => "James or Andrew Dixon & Al Koiman",
-        2 => "Phil Hwang",
+        1 => "James or Andrew Dixon-Tyconderoga & Al Coolguy",
+        2 => "Don Hwang",
         3 => "George Kefalas",
-        4 => "Alexandra Lewis",
-        5 => "Joseph Szymborski",
-        6 => "Adam Verillo"
+        4 => "Alexandra (It's) Lupus",
+        5 => "Joseph Zimbabwe",
+        6 => "Adam Vermicelli"
     );
 
     $num_qs = array(
@@ -192,12 +192,12 @@ Route::get("/take/{id}", function($id){
     }
 
     $quiz_master_lookup = array(
-        1 => "James or Andrew Dixon, MSc & Al Koiman, MD",
-        2 => "Phil Hwang, MSc",
+        1 => "James or Andrew Dixon-Tyconderoga, MSc & Al Coolguy, MD",
+        2 => "Don Hwang, MSc",
         3 => "George Kefalas, MSc",
-        4 => "Alexandra Lewis, MSc",
-        5 => "Joseph Szymborski, MSc",
-        6 => "Adam Verillo, BSc"
+        4 => "Alexandra (It's) Lupus, MSc",
+        5 => "Joseph Zimbabwe, MSc",
+        6 => "Adam Vermicelli, BSc"
     );
     $quiz_master = $quiz_master_lookup[$quiz->quiz_master];
 
@@ -211,12 +211,12 @@ Route::get("/take/{id}/qs", function($id){
     }
 
     $quiz_master_lookup = array(
-        1 => "James or Andrew Dixon & Al Koiman, MSc",
-        2 => "Phil Hwang, MSc",
+        1 => "James or Andrew Dixon-Tyconderoga & Al Coolguy, MSc",
+        2 => "Don Hwang, MSc",
         3 => "George Kefalas, MSc",
-        4 => "Alexandra Lewis, MSc",
-        5 => "Joseph Szymborski, MSc",
-        6 => "Adam Verillo, BSc"
+        4 => "Alexandra (It's) Lupus, MSc",
+        5 => "Joseph Zimbabwe, MSc",
+        6 => "Adam Vermicelli, BSc"
     );
     $quiz_master = $quiz_master_lookup[$quiz->quiz_master];
 

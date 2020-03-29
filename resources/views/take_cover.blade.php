@@ -9,7 +9,7 @@
 <p class="center">{{$quiz->description}}</p>
 <p class="right">Date: {{today()->toFormattedDateString()}}</p>
 <p class="left">Examiner: {{$quiz_master}}</p>
-<p class="left">Associate Examiner: Phil Hwang, MSc, Joseph Szymborski, MSc</p>
+<p class="left">Associate Examiner: Don Hwang, MSc, Joseph Zimbabwe, MSc</p>
 
 <hr/>
 <strong>Instructions:</strong>

@@ -20,12 +20,12 @@
   <div class="form-group">
     <label for="quizmaster">Who are you?</label>
     <select class="form-control" id="quizmaster" name="quizmaster"  aria-describedby="quizmasterHelp">
-      <option value=1>James or Andrew Dixon & Al Koiman</option>
-      <option value=2>Phil Hwang</option>
+      <option value=1>James or Andrew Dixon-Tyconderoga & Al Coolguy</option>
+      <option value=2>Don Hwang</option>
       <option value=3>George Kefalas</option>
-      <option value=4>Alexandra Lewis</option>
-      <option value=5>Joseph Szymborski</option>
-      <option value=6>Adam Verillo</option>
+      <option value=4>Alexandra (It's) Lupus</option>
+      <option value=5>Joseph Zimbabwe</option>
+      <option value=6>Adam Vermicelli</option>
     </select>
     <small id="quizmasterHelp" class="form-text text-muted">You will henceforth be known as this quiz's quizmaster.</small>
   </div>

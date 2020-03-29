@@ -11,12 +11,12 @@ Quiz Master: {{$quiz_master}}, Quiz Created: {{$quiz->created_at}}
 <div class="form-group">
     <label for="exampleFormControlSelect1">Who are you?</label>
     <select name="author" class="form-control" id="exampleFormControlSelect1">
-      <option value=1>James or Andrew Dixon & Al Koiman</option>
-      <option value=2>Phil Hwang</option>
+      <option value=1>James or Andrew Dixon-Tyconderoga & Al Coolguy</option>
+      <option value=2>Don Hwang</option>
       <option value=3>George Kefalas</option>
-      <option value=4>Alexandra Lewis</option>
-      <option value=5>Joseph Szymborski</option>
-      <option value=6>Adam Verillo</option>
+      <option value=4>Alexandra (It's) Lupus</option>
+      <option value=5>Joseph Zimbabwe</option>
+      <option value=6>Adam Vermicelli</option>
     </select>
   </div>
 <div class="form-group">
@@ -25,7 +25,7 @@ Quiz Master: {{$quiz_master}}, Quiz Created: {{$quiz->created_at}}
 
 (A) Coronavirus
 (B) Failure to Thrive
-(C) James or Andrew Dixon & Al Koiman
+(C) James or Andrew Dixon-Tyconderoga & Al Coolguy
 (D) All of the above
 (E) None of the above"></textarea>
   </div>
@@ -39,11 +39,11 @@ Quiz Master: {{$quiz_master}}, Quiz Created: {{$quiz->created_at}}
 <h2>Question Stats for {{$quiz->title}}</h2>
 Number of questions submitted by members for this quiz:
 <ul>
-      <li>James or Andrew Dixon & Al Koiman: {{$num_qs[0]}}</li>
-      <li>Phil Hwang: {{$num_qs[1]}}</li>
+      <li>James or Andrew Dixon-Tyconderoga & Al Coolguy: {{$num_qs[0]}}</li>
+      <li>Don Hwang: {{$num_qs[1]}}</li>
       <li>George Kefalas: {{$num_qs[2]}}</li>
-      <li>Alexandra Lewis: {{$num_qs[3]}}</li>
-      <li>Joseph Szymborski: {{$num_qs[4]}}</li>
-      <li>Adam Verillo: {{$num_qs[5]}}</li>
+      <li>Alexandra (It's) Lupus: {{$num_qs[3]}}</li>
+      <li>Joseph Zimbabwe: {{$num_qs[4]}}</li>
+      <li>Adam Vermicelli: {{$num_qs[5]}}</li>
 </ul>
 @endsection

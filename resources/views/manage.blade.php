@@ -19,12 +19,12 @@
 <h2>Question Stats for {{$quiz->title}}</h2>
 Number of questions submitted by members for this quiz:
 <ul>
-      <li>James or Andrew Dixon & Al Koiman: {{$num_qs[0]}}</li>
-      <li>Phil Hwang: {{$num_qs[1]}}</li>
+      <li>James or Andrew Dixon-Tyconderoga & Al Coolguy: {{$num_qs[0]}}</li>
+      <li>Don Hwang: {{$num_qs[1]}}</li>
       <li>George Kefalas: {{$num_qs[2]}}</li>
-      <li>Alexandra Lewis: {{$num_qs[3]}}</li>
-      <li>Joseph Szymborski: {{$num_qs[4]}}</li>
-      <li>Adam Verillo: {{$num_qs[5]}}</li>
+      <li>Alexandra (It's) Lupus: {{$num_qs[3]}}</li>
+      <li>Joseph Zimbabwe: {{$num_qs[4]}}</li>
+      <li>Adam Vermicelli: {{$num_qs[5]}}</li>
 </ul>
 <h2>Answer Stats for {{$quiz->title}}</h2>
 Number of answers submitted: {{$num_answers}}/{{$quiz->questions->count()*6}}
