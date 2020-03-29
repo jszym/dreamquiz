@@ -12,7 +12,7 @@
     <select class="form-control" id="studentName" name="studentName">
       <option value=1>James or Andrew Dixon & Al Koiman</option>
       <option value=2>Phil Hwang</option>
-      <option value=3>George Kefalis</option>
+      <option value=3>George Kefalas</option>
       <option value=4>Alexandra Lewis</option>
       <option value=5>Joseph Szymborski</option>
       <option value=6>Adam Verillo</option>

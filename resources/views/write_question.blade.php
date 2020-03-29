@@ -13,7 +13,7 @@ Quiz Master: {{$quiz_master}}, Quiz Created: {{$quiz->created_at}}
     <select name="author" class="form-control" id="exampleFormControlSelect1">
       <option value=1>James or Andrew Dixon & Al Koiman</option>
       <option value=2>Phil Hwang</option>
-      <option value=3>George Kefalis</option>
+      <option value=3>George Kefalas</option>
       <option value=4>Alexandra Lewis</option>
       <option value=5>Joseph Szymborski</option>
       <option value=6>Adam Verillo</option>
@@ -41,7 +41,7 @@ Number of questions submitted by members for this quiz:
 <ul>
       <li>James or Andrew Dixon & Al Koiman: {{$num_qs[0]}}</li>
       <li>Phil Hwang: {{$num_qs[1]}}</li>
-      <li>George Kefalis: {{$num_qs[2]}}</li>
+      <li>George Kefalas: {{$num_qs[2]}}</li>
       <li>Alexandra Lewis: {{$num_qs[3]}}</li>
       <li>Joseph Szymborski: {{$num_qs[4]}}</li>
       <li>Adam Verillo: {{$num_qs[5]}}</li>

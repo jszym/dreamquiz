@@ -59,7 +59,7 @@ Route::get('/manage/{id}/{code}', function ($id, $code) {
     $quiz_master_lookup = array(
         1 => "James or Andrew Dixon & Al Koiman",
         2 => "Phil Hwang",
-        3 => "George Kefalis",
+        3 => "George Kefalas",
         4 => "Alexandra Lewis",
         5 => "Joseph Szymborski",
         6 => "Adam Verillo"
@@ -136,7 +136,7 @@ Route::get("/questions/{id}", function($id){
     $quiz_master_lookup = array(
         1 => "James or Andrew Dixon & Al Koiman",
         2 => "Phil Hwang",
-        3 => "George Kefalis",
+        3 => "George Kefalas",
         4 => "Alexandra Lewis",
         5 => "Joseph Szymborski",
         6 => "Adam Verillo"
@@ -194,7 +194,7 @@ Route::get("/take/{id}", function($id){
     $quiz_master_lookup = array(
         1 => "James or Andrew Dixon, MSc & Al Koiman, MD",
         2 => "Phil Hwang, MSc",
-        3 => "George Kefalis, MSc",
+        3 => "George Kefalas, MSc",
         4 => "Alexandra Lewis, MSc",
         5 => "Joseph Szymborski, MSc",
         6 => "Adam Verillo, BSc"
@@ -213,7 +213,7 @@ Route::get("/take/{id}/qs", function($id){
     $quiz_master_lookup = array(
         1 => "James or Andrew Dixon & Al Koiman, MSc",
         2 => "Phil Hwang, MSc",
-        3 => "George Kefalis, MSc",
+        3 => "George Kefalas, MSc",
         4 => "Alexandra Lewis, MSc",
         5 => "Joseph Szymborski, MSc",
         6 => "Adam Verillo, BSc"
