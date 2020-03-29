@@ -28,13 +28,13 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="/create">Create Quiz</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/questions/">Submit Questions</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/take">Take Quiz</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/create">Create Quiz</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/results">View Results</a>
