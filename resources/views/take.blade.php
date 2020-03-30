@@ -26,7 +26,7 @@
 @foreach ($quiz->questions as $question)
 <?php $i++; ?>
 <div class="form-group">
-    <label for="question{{$question->id}}"><strong>({{$i}}) {{$question->question}}</strong></label>
+    <label for="question{{$question->id}}"><strong>{{$name_lookup[$question->author]}}'s Question<br/>({{$i}}) {{$question->question}}</strong></label>
     <textarea class="form-control" name="question{{$question->id}}" id="question{{$question->id}}" rows="3"></textarea>
 </div>
 @endforeach

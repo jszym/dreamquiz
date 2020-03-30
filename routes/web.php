@@ -201,6 +201,8 @@ Route::get("/take/{id}", function($id){
     );
     $quiz_master = $quiz_master_lookup[$quiz->quiz_master];
 
+
+
     return view("take_cover")->with("quiz", $quiz)->with("quiz_master", $quiz_master);
 });
 
@@ -209,6 +211,15 @@ Route::get("/take/{id}/qs", function($id){
     if ($quiz == null) {
         return redirect('/')->with("error_message", "YSAI you can't take a quiz if the quiz is inactive.");
     }
+
+    $name_lookup = array(
+        1 => "James or Andrew & Al",
+        2 => "Don",
+        3 => "George",
+        4 => "Alexandra",
+        5 => "Joseph",
+        6 => "Adam"
+    );
 
     $quiz_master_lookup = array(
         1 => "James or Andrew Dixon-Tyconderoga & Al Coolguy, MSc",
@@ -220,7 +231,7 @@ Route::get("/take/{id}/qs", function($id){
     );
     $quiz_master = $quiz_master_lookup[$quiz->quiz_master];
 
-    return view("take")->with("quiz", $quiz)->with("quiz_master", $quiz_master);
+    return view("take")->with("quiz", $quiz)->with("quiz_master", $quiz_master)->with("name_lookup", $name_lookup);
 });
 
 Route::post("/take/{id}/qs", function($id, Request $request){
