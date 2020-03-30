@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:700&display=swap" rel="stylesheet">
     <link href="/css/app.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
@@ -18,7 +17,7 @@
 
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="/">DreamQuiz <small>v0.3</small></a>
+            <a class="navbar-brand" href="/">DreamQuiz <small>v0.4</small></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
