@@ -7,7 +7,7 @@
 
 
 @foreach ($quiz->questions as $question)
-<p><strong>{{$question->question}}</strong></p>
+<p><strong>{!!nl2br(e($question->question))!!}</strong></p>
 <ul>
     <li><strong>Correct answer:</strong> {{$question->answer}} ({{$author_lookup[$question->author]}})</li>
     @foreach($question->answers as $answer)
